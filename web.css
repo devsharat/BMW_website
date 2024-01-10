@@ -1,0 +1,158 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    
+    /* display: flex;
+    align-items:center;
+    justify-content: space-between; */
+    height: 80px;
+    position: relative;
+}
+
+#topLeft{
+    border: 1px solid green;
+    height:50px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.child{
+    
+    height:30px;
+    width:50px;
+    z-index: 2;
+}
+.child:hover{
+    border-bottom: 5px solid blue;
+}
+
+#topRight{
+    border: 1px solid green;
+    height:50px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hi{
+    
+    height:30px;
+    width:30px; 
+    z-index: 2;
+}
+
+#morning{
+    border: 2px solid blue;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 80px;
+    width: 80%;
+}
+
+#child1{
+    width: 70px;
+    
+}
+
+#child2{
+    width: 70px;
+}
+#child3{
+    width: 120px;
+}
+#child4{
+    width: 150px;
+}
+
+.hi:hover{
+    border-bottom: 5px solid blue;
+}
+
+#tgj{
+    display:flex;
+    align-items: start;
+    height:80px;
+    z-index: 2;
+}
+
+#rtigjtr{
+    height:120px;
+    border: 2px solid black;
+}
+#engvj{
+    height:25px;
+    border: 2px solid black;
+}
+#gaug{
+    display: flex;
+    z-index: 2;
+}
+#akgh{
+    width: 80%;
+    
+}
+#hugk{
+    display: flex;
+}
+#wkeg{
+    display: flex;
+}
+#kjwr{
+    display: flex;
+}
+#ugwj{
+    background-color: blue;
+    color: white;
+    z-index: 2;
+}
+#rkhj{
+    width: 100%;
+}
+#woeh{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+#ekjj{
+    z-index: 2;
+}
+
+#irej{
+    z-index: 2;
+}
+#uefh{
+    z-index: 2;
+}
+/* #ewih{
+    border-bottom: 3px solid black;
+    z-index: 5;
+} */
+#rewg{
+    z-index: 100;
+    position: absolute;
+}
+#ugwj{
+    z-index: 3;
+}
+#skjv{
+    z-index: 5;
+}
+#efhg{
+    z-index: 3;
+}
+
+/* Second part of the website */
+#wekj{
+    width: 80%;
+    height: 200px;
+    border: 2px solid red;
+}
